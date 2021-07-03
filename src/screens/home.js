@@ -4,7 +4,9 @@ import NavbarBeforeSignUp from '../components/navbarBeforeSignUp'
 import Testimonials from '../components/testimonials';
 
 
+
 const Home = () => {
+    
     return (
         <div className="p-4">
             <NavbarBeforeSignUp/>
@@ -44,7 +46,7 @@ const Home = () => {
             {/* testimonals */}
             <Testimonials/>
             {/* links */}
-            <div className="row p-2">
+            <div className="row pl-5">
                 <div className="col-4">
                     <Button variant="link">Become a mentor</Button>
                 </div>
